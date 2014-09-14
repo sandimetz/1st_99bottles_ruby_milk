@@ -27,7 +27,6 @@ VERSE
   end
 
   def test_verse_2
-    skip
     expected = <<-VERSE
 2 bottles of milk on the wall, 2 bottles of milk.
 Take one down and pass it around, 1 bottle of milk on the wall.
