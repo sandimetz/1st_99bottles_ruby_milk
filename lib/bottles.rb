@@ -15,7 +15,8 @@ class Bottles
   def verse(number)
     case number
     when 0
-      "No more #{container(number)} of milk on the wall, " +
+      "#{quantity(number).capitalize} #{container(number)} " +
+      "of milk on the wall, " +
       "#{quantity(number)} #{container(number)} of milk.\n" +
       "Go to the store and buy some more, " +
       "99 #{container(number-1)} of milk on the wall.\n"
