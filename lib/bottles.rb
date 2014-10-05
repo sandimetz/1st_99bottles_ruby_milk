@@ -19,13 +19,15 @@ class Bottles
       "of milk on the wall, " +
       "#{quantity(number)} #{container(number)} of milk.\n" +
       "#{action(number)}, " +
-      "#{quantity(99)} #{container(number-1)} of milk on the wall.\n"
+      "#{quantity(successor(number))} #{container(successor(number))} " +
+      "of milk on the wall.\n"
     else
       "#{quantity(number).capitalize} #{container(number)} " +
       "of milk on the wall, " +
       "#{quantity(number)} #{container(number)} of milk.\n" +
       "#{action(number)}, " +
-      "#{quantity(number-1)} #{container(number-1)} of milk on the wall.\n"
+      "#{quantity(successor(number))} #{container(successor(number))} " +
+      "of milk on the wall.\n"
     end
   end
 
