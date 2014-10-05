@@ -15,10 +15,10 @@ class Bottles
   def verse(number)
     case number
     when 0
-      "No more bottles of milk on the wall, " +
-      "no more bottles of milk.\n" +
+      "No more #{container(number)} of milk on the wall, " +
+      "#{quantity(number)} #{container(number)} of milk.\n" +
       "Go to the store and buy some more, " +
-      "99 bottles of milk on the wall.\n"
+      "99 #{container(number-1)} of milk on the wall.\n"
     else
       "#{quantity(number)} #{container(number)} of milk on the wall, " +
       "#{quantity(number)} #{container(number)} of milk.\n" +
