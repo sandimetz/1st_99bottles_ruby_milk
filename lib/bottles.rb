@@ -14,11 +14,11 @@ class Bottles
 
   def verse(number)
     "#{quantity(number).capitalize} #{container(number)} " +
-    "of milk on the wall, " +
+      "of milk on the wall, " +
     "#{quantity(number)} #{container(number)} of milk.\n" +
     "#{action(number)}, " +
     "#{quantity(successor(number))} #{container(successor(number))} " +
-    "of milk on the wall.\n"
+      "of milk on the wall.\n"
   end
 
   def container(number)
