@@ -23,4 +23,12 @@ Take one down and pass it around, 2 bottles of milk on the wall.
 VERSE
     assert_equal expected, ::Bottles.new.verse(3)
   end
+
+  def test_verse_2
+    expected = <<-VERSE
+2 bottles of milk on the wall, 2 bottles of milk.
+Take one down and pass it around, 1 bottle of milk on the wall.
+    VERSE
+    assert_equal expected, ::Bottles.new.verse(2)
+  end
 end
