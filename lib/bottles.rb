@@ -8,6 +8,7 @@ class Bottles
     "#{number} bottles of milk on the wall, " +
     "#{number} bottles of milk.\n" +
     "Take one down and pass it around, " +
-    "#{number-1} bottles of milk on the wall.\n"
+    "#{number-1} #{(number-1) == 1 ? 'bottle' : 'bottles'} of milk " +
+      "on the wall.\n"
   end
 end
