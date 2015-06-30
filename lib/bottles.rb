@@ -20,11 +20,6 @@ class Bottles
       "no more bottles of milk.\n" +
       "Go to the store and buy some more, " +
       "99 bottles of milk on the wall.\n"
-    when 1
-      "#{number} #{container(number)} of milk on the wall, " +
-      "#{number} #{container(number)} of milk.\n" +
-      "Take #{pronoun(number)} down and pass it around, " +
-      "#{quantity(number-1)} #{container(number-1)} of milk on the wall.\n"
     else
       "#{number} #{container(number)} of milk on the wall, " +
       "#{number} #{container(number)} of milk.\n" +
