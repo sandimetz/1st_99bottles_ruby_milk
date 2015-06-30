@@ -26,6 +26,10 @@ class Bottles
       "#{action(number)}, " +
       "#{quantity(successor(number))} #{container(successor(number))} of milk on the wall.\n"
     end
+    "#{quantity(number).capitalize} #{container(number)} of milk on the wall, " +
+    "#{quantity(number)} #{container(number)} of milk.\n" +
+    "#{action(number)}, " +
+    "#{quantity(successor(number))} #{container(successor(number))} of milk on the wall.\n"
   end
 
   def successor(number)
