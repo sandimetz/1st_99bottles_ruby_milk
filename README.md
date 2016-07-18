@@ -1,5 +1,12 @@
 # 99 Bottles
 
+## The Code
+
+* [Chapter 1](https://github.com/sandimetz/99bottles_milk/commits/chapter-1)
+* [Chapter 2](https://github.com/sandimetz/99bottles_milk/commits/chapter-2)
+* [Chapter 3](https://github.com/sandimetz/99bottles_milk/commits/chapter-3)
+* [Chapter 4](https://github.com/sandimetz/99bottles_milk/commits/chapter-4)
+
 ## Installing Ruby
 
 ### Windows
