@@ -11,12 +11,10 @@ class Bottles
     bottle_number      = BottleNumber.new(number)
     next_bottle_number = BottleNumber.new(bottle_number.successor)
 
-    "#{bottle_number} ".capitalize +
-      "of milk on the wall, " +
+    "#{bottle_number} of milk on the wall, ".capitalize +
     "#{bottle_number} of milk.\n" +
     "#{bottle_number.action}, " +
-    "#{next_bottle_number} " +
-      "of milk on the wall.\n"
+    "#{next_bottle_number} of milk on the wall.\n"
   end
 end
 
